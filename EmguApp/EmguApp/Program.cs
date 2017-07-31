@@ -44,8 +44,7 @@ namespace EmguApp
 
         static void Main(string[] args)
         {
-            // Put a path to video file below:
-            string videoFile = @"";
+            string videoFile = @"PUT A PATH TO VIDEO FILE HERE!";
             // You can download sample video used in the blog post from here:
             // http://morzel.net/download/emgu_cv_drone_test_video.mp4 (4.04 MB, MPEG4 H264 640x480 25fps)
 
