@@ -176,7 +176,7 @@ namespace EmguApp
             Rectangle box = CvInvoke.BoundingRectangle(contour);
 
             // Drawing contour and box around it
-            CvInvoke.Polylines(frame, contour.ToArray(), true, drawingColor);
+            CvInvoke.Polylines(frame, contour, true, drawingColor);
             CvInvoke.Rectangle(frame, box, drawingColor);
 
             // Write information next to marked object
